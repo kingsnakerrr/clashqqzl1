@@ -1,2 +1,2 @@
-# clashqqzl1
-clash规则全球直连1
+# clashpz1
+clash配置文件1
