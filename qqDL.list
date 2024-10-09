@@ -1,6 +1,26 @@
 # 内容：全球代理自己维护
-# 数量：4条
-#修改下面想要改的域名，把#删除
-#DOMAIN-SUFFIX,phprcdn.com
-#DOMAIN-SUFFIX,pornhub.com
-#DOMAIN-SUFFIX,pornhubpremium.com
+
+#1. 特定域名走代理
+#如果你想让某个特定域名（比如example.com）通过代理，可以使用以下规则：
+#DOMAIN,example.com
+#这条规则的意思是：当访问example.com时，通过代理服务器Proxy。
+
+#2. 泛指某个域名及其所有子域名
+#如果你希望某个域名及其所有子域名（比如example.com以及*.example.com）都通过代理，可以使用以下规则：
+#DOMAIN-SUFFIX,example.com
+#这条规则会匹配example.com和其所有子域名，如sub.example.com、www.example.com等。
+
+#3. 指定域名后缀走代理
+#如果你想让所有属于某个后缀的域名（比如所有.example的域名）都通过代理，可以使用：
+#DOMAIN-SUFFIX,example
+#这条规则会匹配所有后缀是example的域名，例如a.example、b.example等。
+
+#4. 使用通配符匹配多个域名
+#如果要对包含特定关键词的所有域名进行代理，可以使用DOMAIN-KEYWORD：
+#DOMAIN-KEYWORD,example
+#这条规则的作用是，只要域名中包含example这个关键词，就会通过代理。例如，example123.com、test-example.net都会被匹配到。
+
+
+
+#cloudflare
+DOMAIN-SUFFIX,cloudflare.com
