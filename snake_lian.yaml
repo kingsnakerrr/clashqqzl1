@@ -1,0 +1,483 @@
+rule-providers:
+  🚀 节点选择:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyGFWlist.list
+    path: ./ruleset/🚀 节点选择.yaml
+  🎯 全球直连:
+    type: http
+    behavior: classical
+    url: '[]GEOIP,CN'
+    path: ./ruleset/🎯 全球直连.yaml
+  🛑 广告拦截:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanAD.list
+    path: ./ruleset/🛑 广告拦截.yaml
+  🍃 应用净化:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/BanProgramAD.list
+    path: ./ruleset/🍃 应用净化.yaml
+  📢 谷歌FCM:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
+    path: ./ruleset/📢 谷歌FCM.yaml
+  Ⓜ️ 微软Bing:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Bing.list
+    path: ./ruleset/Ⓜ️ 微软Bing.yaml
+  Ⓜ️ 微软云盘:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/OneDrive.list
+    path: ./ruleset/Ⓜ️ 微软云盘.yaml
+  Ⓜ️ 微软服务:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Microsoft.list
+    path: ./ruleset/Ⓜ️ 微软服务.yaml
+  🍎 苹果服务:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list
+    path: ./ruleset/🍎 苹果服务.yaml
+  📲 电报消息:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Telegram.list
+    path: ./ruleset/📲 电报消息.yaml
+  💬 OpenAi:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/OpenAi.list
+    path: ./ruleset/💬 OpenAi.yaml
+  📲 Facebook:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Facebook/Facebook.list
+    path: ./ruleset/📲 Facebook.yaml
+  🎶 网易音乐:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/NetEaseMusic.list
+    path: ./ruleset/🎶 网易音乐.yaml
+  🎮 游戏平台:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Nintendo.list
+    path: ./ruleset/🎮 游戏平台.yaml
+  📹 油管视频:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/YouTube.list
+    path: ./ruleset/📹 油管视频.yaml
+  🎥 奈飞视频:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Netflix.list
+    path: ./ruleset/🎥 奈飞视频.yaml
+  📺 Disney:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/Disney/Disney.list
+    path: ./ruleset/📺 Disney.yaml
+  📺 PrimeVideo:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/AmazonPrimeVideo/AmazonPrimeVideo.list
+    path: ./ruleset/📺 PrimeVideo.yaml
+  📺 巴哈姆特:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Bahamut.list
+    path: ./ruleset/📺 巴哈姆特.yaml
+  📺 Tiktok:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/TikTok/TikTok.list
+    path: ./ruleset/📺 Tiktok.yaml
+  📺 哔哩哔哩:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/BilibiliHMT.list
+    path: ./ruleset/📺 哔哩哔哩.yaml
+  📺 Hbogo:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/HBOAsia/HBOAsia.list
+    path: ./ruleset/📺 Hbogo.yaml
+  📺 ParamountPlus:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/refs/heads/master/rule/Clash/ParamountPlus/ParamountPlus.list
+    path: ./ruleset/📺 ParamountPlus.yaml
+  📺 Pornhub:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/refs/heads/master/Clash/Ruleset/Pornhub.list
+    path: ./ruleset/📺 Pornhub.yaml
+  🌏 国内媒体:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaMedia.list
+    path: ./ruleset/🌏 国内媒体.yaml
+  🌍 国外媒体:
+    type: http
+    behavior: classical
+    url: https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
+    path: ./ruleset/🌍 国外媒体.yaml
+  🐟 漏网之鱼:
+    type: http
+    behavior: classical
+    url: '[]FINAL'
+    path: ./ruleset/🐟 漏网之鱼.yaml
+proxy-groups:
+- name: 🚀 节点选择
+  type: select
+  proxies:
+  - (直连)
+  - '[]♻️ 自动选择'
+  - '[]DIRECT'
+- name: ♻️ 自动选择
+  type: url-test
+  proxies:
+  - (直连)
+  - http://www.gstatic.com/generate_204
+  - 300,,50
+- name: 📲 电报消息
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]DIRECT'
+- name: 📲 Facebook
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]DIRECT'
+- name: 💬 OpenAi
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📹 油管视频
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]DIRECT'
+- name: 🎥 奈飞视频
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 Disney
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 PrimeVideo
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 Hbogo
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 巴哈姆特
+  type: select
+  proxies:
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 Tiktok
+  type: select
+  proxies:
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 哔哩哔哩
+  type: select
+  proxies:
+  - '[]🎯 全球直连'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 ParamountPlus
+  type: select
+  proxies:
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+- name: 📺 Pornhub
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]DIRECT'
+- name: 🌍 国外媒体
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+  - '[]DIRECT'
+- name: 🌏 国内媒体
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 📢 谷歌FCM
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: Ⓜ️ 微软Bing
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: Ⓜ️ 微软云盘
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: Ⓜ️ 微软服务
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 🍎 苹果服务
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 🎮 游戏平台
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 🎶 网易音乐
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - (网易|音乐|解锁|Music|NetEase)
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - '[]DIRECT'
+  - '[]🚀 节点选择'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 🛑 广告拦截
+  type: select
+  proxies:
+  - '[]REJECT'
+  - '[]DIRECT'
+- name: 🍃 应用净化
+  type: select
+  proxies:
+  - '[]REJECT'
+  - '[]DIRECT'
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]DIRECT'
+  - '[]🔗🇭🇰 链式代理'
+  - '[]🔗🇯🇵 链式代理'
+  - '[]🔗🇸🇬 链式代理'
+  - '[]🔗🇰🇷 链式代理'
+  - '[]🔗🇹🇼 链式代理'
+  - '[]🔗🇺🇲 链式代理'
+  - '[]🔗ca 链式代理'
+- name: 🇭🇰 HK落地节点
+  type: select
+  proxies:
+  - (HKl)
+- name: 🇯🇵 JP落地节点
+  type: select
+  proxies:
+  - (JPl)
+- name: 🇸🇬 SG落地节点
+  type: select
+  proxies:
+  - (SGl)
+- name: 🇰🇷 KR落地节点
+  type: select
+  proxies:
+  - (KRl)
+- name: 🇹🇼 TW落地节点
+  type: select
+  proxies:
+  - (TWl)
+- name: 🇺🇲 USA落地节点
+  type: select
+  proxies:
+  - (USAl)
+- name: ca CA落地节点
+  type: select
+  proxies:
+  - (CAl)
+- name: 🔗🇭🇰 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇭🇰 HK落地节点'
+- name: 🔗🇯🇵 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇯🇵 JP落地节点'
+- name: 🔗🇸🇬 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇸🇬 SG落地节点'
+- name: 🔗🇰🇷 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇰🇷 KR落地节点'
+- name: 🔗🇹🇼 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇹🇼 TW落地节点'
+- name: 🔗🇺🇲 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]🇺🇲 USA落地节点'
+- name: 🔗ca 链式代理
+  type: relay
+  proxies:
+  - '[]🚀 节点选择'
+  - '[]ca CA落地节点'
+settings:
+  enable_rule_generator: 'true'
+  overwrite_original_rules: 'true'
