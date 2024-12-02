@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,alice.ws
 DOMAIN-KEYWORD,misakaf
 DOMAIN,netcup.1o.222321.xyz
+DOMAIN,arm1os1.222321.xyz
 IP-CIDR,5.45.96.225/32,no-resolve
 DOMAIN,netcup.6o.222321.xyz
 IP-CIDR,152.53.14.99/32,no-resolve
