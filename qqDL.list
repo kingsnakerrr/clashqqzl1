@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,alice.ws
 DOMAIN-KEYWORD,misakaf
+DOMAIN-KEYWORD,javdb.com
 DOMAIN,netcup.1o.222321.xyz
 DOMAIN,arm1os1.222321.xyz
 IP-CIDR,5.45.96.225/32,no-resolve
