@@ -5,6 +5,14 @@
 #DOMAIN-SUFFIX,pornhub.com
 #DOMAIN-SUFFIX,pornhubpremium.com
 
+
+
+#屏蔽奈飞检测同户的域名
+DOMAIN-SUFFIX,android-appboot.netflix.com,REJECT
+DOMAIN-SUFFIX,android.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com,REJECT
+
 DOMAIN,cc.222321.xyz
 DOMAIN,yx.hk.vol3d.222321.xyz
 DOMAIN,aly.hk1.222321.xyz
