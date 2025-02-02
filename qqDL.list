@@ -21,7 +21,9 @@
 #这条规则的作用是，只要域名中包含example这个关键词，就会通过代理。例如，example123.com、test-example.net都会被匹配到。
 
 
-
+DOMAIN-SUFFIX,missav.com
+DOMAIN-SUFFIX,Stripchat.com
+DOMAIN-SUFFIX,FapHouse.com
 DOMAIN-SUFFIX,translate.googleapis.com
 DOMAIN-SUFFIX,sehuatang.net
 DOMAIN-SUFFIX,cloudflare.com
