@@ -21,7 +21,7 @@
 #这条规则的作用是，只要域名中包含example这个关键词，就会通过代理。例如，example123.com、test-example.net都会被匹配到。
 
 
-
+DOMAIN-KEYWORD,sehuatang
 DOMAIN-SUFFIX,sehuatang.org
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.com
