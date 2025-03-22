@@ -41,10 +41,10 @@ DOMAIN-KEYWORD,hanime1.me
 DOMAIN-SUFFIX,javdb.com
 DOMAIN-SUFFIX,ptcafe.club
 DOMAIN-SUFFIX,bestvm.cloud
-DOMAIN,emby.younoyes.com
-DOMAIN,emby.aikan.la
-DOMAIN,emby.aikan.cloud
-DOMAIN,emby.sda.moe
+DOMAIN-SUFFIX,emby.younoyes.com
+DOMAIN-SUFFIX,emby.aikan.la
+DOMAIN-SUFFIX,emby.aikan.cloud
+DOMAIN-SUFFIX,emby.sda.moe
 IP-CIDR,5.45.96.225/32,no-resolve
 DOMAIN,netcup.6o.222321.xyz
 IP-CIDR,152.53.14.99/32,no-resolve
