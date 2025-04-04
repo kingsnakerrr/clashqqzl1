@@ -4,8 +4,8 @@
 
 
 #屏蔽奈飞检测同户的域名
-DOMAIN,android-appboot.netflix.com,REJECT
-DOMAIN,android.prod.cloud.netflix.com,REJECT
-DOMAIN,ios.prod.cloud.netflix.com,REJECT
-DOMAIN,ios.ngp.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,android-appboot.netflix.com,REJECT
+DOMAIN-SUFFIX,android.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com,REJECT
 
