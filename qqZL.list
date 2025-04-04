@@ -1,4 +1,4 @@
-# 内容：全球直连自己维护
+# 内容：全球屏蔽不连接自己维护
 # 数量：4条
 #修改下面想要改的域名，把#删除
 #DOMAIN-SUFFIX,phprcdn.com
@@ -8,13 +8,7 @@
 
 
 #屏蔽奈飞检测同户的域名
-DOMAIN,android-appboot.netflix.com,REJECT
-DOMAIN,android.prod.cloud.netflix.com,REJECT
-DOMAIN,ios.prod.cloud.netflix.com,REJECT
-DOMAIN,ios.ngp.prod.cloud.netflix.com,REJECT
-
-DOMAIN,cc.222321.xyz
-DOMAIN,yx.hk.vol3d.222321.xyz
-DOMAIN,aly.hk1.222321.xyz
-IP-CIDR,199.193.126.244/32,no-resolve
-IP-CIDR,157.254.33.54/32,no-resolve
+DOMAIN-SUFFIX,android-appboot.netflix.com,REJECT
+DOMAIN-SUFFIX,android.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.prod.cloud.netflix.com,REJECT
+DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com,REJECT
