@@ -1,14 +1,15 @@
-# 内容：全球屏蔽不连接自己维护
+# 内容：全球直连自己维护
 # 数量：4条
 #修改下面想要改的域名，把#删除
 #DOMAIN-SUFFIX,phprcdn.com
 #DOMAIN-SUFFIX,pornhub.com
 #DOMAIN-SUFFIX,pornhubpremium.com
 
+#直连服务器
+DOMAIN,hen.222321.xyz,DIRECT
+DOMAIN,sn.222321.xyz,DIRECT
+DOMAIN,aly.hk1.222321.xyz,DIRECT
+IP-CIDR,172.99.138.181/32,DIRECT
+IP-CIDR,172.99.137.37/32,DIRECT
 
 
-#屏蔽奈飞检测同户的域名
-DOMAIN-SUFFIX,android-appboot.netflix.com,REJECT
-DOMAIN-SUFFIX,android.prod.cloud.netflix.com,REJECT
-DOMAIN-SUFFIX,ios.prod.cloud.netflix.com,REJECT
-DOMAIN-SUFFIX,ios.ngp.prod.cloud.netflix.com,REJECT
