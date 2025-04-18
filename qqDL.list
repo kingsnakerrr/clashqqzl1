@@ -23,15 +23,14 @@
 
 DOMAIN-KEYWORD,sehuatang
 DOMAIN-SUFFIX,sehuatang.org
-DOMAIN-SUFFIX,grok.com
-DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,sehuatang.net
 DOMAIN-SUFFIX,141jav.com
 DOMAIN-SUFFIX,141ppv.com
 DOMAIN-SUFFIX,missav.com
 DOMAIN-SUFFIX,Stripchat.com
 DOMAIN-SUFFIX,FapHouse.com
 DOMAIN-SUFFIX,translate.googleapis.com
-DOMAIN-SUFFIX,sehuatang.net
+
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,nodeseek.com
 DOMAIN-SUFFIX,misakaf.org
@@ -49,5 +48,4 @@ DOMAIN-SUFFIX,emby.aikan.cloud
 DOMAIN-SUFFIX,emby.sda.moe
 DOMAIN-SUFFIX,free.28.al
 IP-CIDR,5.45.96.225/32,no-resolve
-DOMAIN,netcup.6o.222321.xyz
 IP-CIDR,152.53.14.99/32,no-resolve
