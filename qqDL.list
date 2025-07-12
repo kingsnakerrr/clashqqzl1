@@ -53,3 +53,4 @@ DOMAIN-SUFFIX,emby.sda.moe
 DOMAIN-SUFFIX,free.28.al
 IP-CIDR,5.45.96.225/32,no-resolve
 IP-CIDR,152.53.14.99/32,no-resolve
+IP-CIDR,84.54.2.202/32,no-resolve
