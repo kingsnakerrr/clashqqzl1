@@ -1,0 +1,70 @@
+# 内容：全球代理自己维护
+
+#1. 特定域名走代理
+#如果你想让某个特定域名（比如example.com）通过代理，可以使用以下规则：
+#DOMAIN,example.com
+#这条规则的意思是：当访问example.com时，通过代理服务器Proxy。
+
+#2. 泛指某个域名及其所有子域名
+#如果你希望某个域名及其所有子域名（比如example.com以及*.example.com）都通过代理，可以使用以下规则：
+#DOMAIN-SUFFIX,example.com
+#这条规则会匹配example.com和其所有子域名，如sub.example.com、www.example.com等。
+
+#3. 指定域名后缀走代理
+#如果你想让所有属于某个后缀的域名（比如所有.example的域名）都通过代理，可以使用：
+#DOMAIN-SUFFIX,example
+#这条规则会匹配所有后缀是example的域名，例如a.example、b.example等。
+
+#4. 使用通配符匹配多个域名
+#如果要对包含特定关键词的所有域名进行代理，可以使用DOMAIN-KEYWORD：
+#DOMAIN-KEYWORD,example
+#这条规则的作用是，只要域名中包含example这个关键词，就会通过代理。例如，example123.com、test-example.net都会被匹配到。
+
+# porn
+DOMAIN-KEYWORD,sehuatang
+DOMAIN-SUFFIX,sehuatang.org
+DOMAIN-SUFFIX,sehuatang.net
+DOMAIN-SUFFIX,141jav.com
+DOMAIN-SUFFIX,141ppv.com
+DOMAIN-SUFFIX,missav.com
+DOMAIN-KEYWORD,hanime1.me
+DOMAIN-SUFFIX,javdb.com
+
+# 杂
+DOMAIN,t.222321.xyz
+DOMAIN-SUFFIX,alice.ws
+DOMAIN-SUFFIX,cloudflare.com
+DOMAIN-SUFFIX,nodeseek.com
+DOMAIN-SUFFIX,misakaf.org
+DOMAIN-SUFFIX,Stripchat.com
+DOMAIN-SUFFIX,FapHouse.com
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,ptcafe.club
+DOMAIN-SUFFIX,bestvm.cloud
+
+# emby
+DOMAIN-SUFFIX,nb.28.al
+DOMAIN-SUFFIX,free.28.al
+DOMAIN-SUFFIX,emby.aikan.la
+DOMAIN-SUFFIX,emby.aikan.cloud
+DOMAIN-SUFFIX,emby.sda.moe
+DOMAIN-SUFFIX,free.28.al
+DOMAIN-SUFFIX,1.tufei.de
+DOMAIN-SUFFIX,iris.niceduck.lol
+DOMAIN-SUFFIX,emby.sakiko.de
+DOMAIN,emby1.69yun69.com
+DOMAIN,emby2.69yun69.com
+DOMAIN,emby3.69yun69.com
+DOMAIN,cdnemby.hikeba.de
+DOMAIN,abc.tufei.de
+DOMAIN,nb.28.al
+DOMAIN,emby.younoyes.com
+DOMAIN,playz.mjji.de
+DOMAIN,emby.hikeba.de
+DOMAIN-KEYWORD,misakaf
+DOMAIN-SUFFIX,emby.younoyes.com
+
+# 不知道什么待删
+IP-CIDR,5.45.96.225/32,no-resolve
+IP-CIDR,152.53.14.99/32,no-resolve
+IP-CIDR,84.54.2.202/32,no-resolve
