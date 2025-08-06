@@ -3,8 +3,7 @@
 
 
 
-DOMAIN-SUFFIX,cloudflare.com
-DOMAIN-SUFFIX,nodeseek.com
+
 DOMAIN-SUFFIX,misakaf.org
 DOMAIN-SUFFIX,1.tufei.de
 DOMAIN-SUFFIX,iris.niceduck.lol
@@ -17,3 +16,7 @@ DOMAIN,abc.tufei.de
 DOMAIN,nb.28.al
 DOMAIN,playz.mjji.de
 DOMAIN,emby.hikeba.de
+DOMAIN,free.28.al
+DOMAIN,emby.aikan.la
+DOMAIN,emby.aikan.cloud
+DOMAIN,emby.sda.moe
