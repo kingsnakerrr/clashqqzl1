@@ -1,1 +1,12 @@
-1111
+# emby走代理
+
+DOMAIN,c1v.222321.xyz
+DOMAIN,hdz.222321.xyz
+DOMAIN,emby.younoyes.com
+DOMAIN,cdnemby.hikeba.de
+DOMAIN,emby1.69yun69.com
+DOMAIN,emby3.69yun69.com
+DOMAIN,emby2.69yun69.com
+DOMAIN,de.yixia.io
+DOMAIN,dianying.xianggang.de
+IP-CIDR,84.54.2.202/32
